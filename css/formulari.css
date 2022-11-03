@@ -71,4 +71,13 @@ input {
     font-weight: bold;
 }
 
+.boto {
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    background-color: #3a9e3e;
+    border-radius: 10px;
+}
+
 /* ------------------------------------------------------------------------------------------------- */
