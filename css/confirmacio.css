@@ -1,0 +1,53 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Aquesta font afectara a totes les lletres */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------------------------------  Creació Capçalera  ------------------------------------- */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AFF594;
+    /* border: 3px solid black; */
+}
+
+.titol_capçalera {
+    font-size: 50px;
+}
+
+.logo {
+    width: 150px;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------  Creació del missatge de confirmació  ------------------------------------- */
+main {
+    height: 86vh;
+    padding-top: 45px;
+}
+
+    main h1 {
+        text-align: center;
+        padding: 20px;
+        margin: 50px;
+        color: #3a9e3e;
+        border: 5px solid black;
+        box-shadow: 10px 10px 5px #3a9e3e;
+        font-size: 35px;
+    }
+
+.emoticona {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 250px;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */

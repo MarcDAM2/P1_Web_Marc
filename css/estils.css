@@ -1,0 +1,113 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Aquesta font afectara a totes les lletres */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Color del logo #3a9e3e */
+
+
+/* ---------------------------------------  Creació Capçalera  ------------------------------------- */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AFF594;
+    /* border: 3px solid black; */
+}
+
+.titol_capçalera {
+    font-size: 50px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.fa-shopping-basket {
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+
+/* --------------------------------  Creació Del menu dels productes  ------------------------------ */
+main {
+    height: 86vh;
+    padding-top: 45px;
+}
+
+   main h1 {
+    color: #3a9e3e;
+    font-size: 35px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+main h2 {
+    color: #3a9e3e;
+    font-size: 28px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+
+.productes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.producte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AFF594;
+    border-radius: 30px;
+}
+
+.producte img {
+    height: 200px;
+}
+
+.producte p {
+    padding: 10px;
+}
+
+.descripcio {
+    max-width: 200px;
+}
+
+.nomProducte {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quantitat {
+    display: flex;
+    align-items: center;
+}
+
+.quantitatInd {
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.botoComprar {
+    padding: 10px;
+    width: 100%;
+
+    font-size: 25px;
+    background-color: #3a9e3e;
+    color: black;
+    border-radius: 10px;
+}
+/* ------------------------------------------------------------------------------------------------- */

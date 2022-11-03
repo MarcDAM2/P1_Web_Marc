@@ -1,0 +1,74 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Aquesta font afectara a totes les lletres */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------------------------------  Creació Capçalera  ------------------------------------- */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AFF594;
+    /* border: 3px solid black; */
+}
+
+.titol_capçalera {
+    font-size: 50px;
+}
+
+.logo {
+    width: 150px;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------  Creació del Formulari per al Client  ------------------------------------- */
+main {
+    height: 86vh;
+    padding-top: 45px;
+}
+
+    main h1 {
+        color: #3a9e3e;
+        font-size: 35px;
+        padding-left: 30px;
+        padding-bottom: 25px;
+    }
+
+.dadesClient {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.tipusDades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: 5px solid black;
+    box-shadow: 10px 10px 5px #3a9e3e;
+}
+
+p {
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
