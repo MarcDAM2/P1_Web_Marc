@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <form></form>
-                <form action ="Confirmacio.aspx">
+                <form action ="Confirmacio.aspx" class="boton">
                     <asp:Button class="boto" runat="server" Text="Confirma Comanda" />
                 </form>
             </main>
