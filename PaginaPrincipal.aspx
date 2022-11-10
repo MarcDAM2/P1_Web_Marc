@@ -22,50 +22,10 @@
                 <h1>Benvolgut/da a la botiga Funko_DAM</h1>
                 <h2>Productes en Estoc:</h2>
                 <div class="productes">
-                    <div class="producte">
-                        <img src="img/logo.png" alt=" Imatge del producte1">
-                        <p class="nomProducte"> Nom del producte</p>
-                        <p> 15,99 €</p>
-                        <p class="descripcio"> Figureta de una serie.</p>
-                        <div class="quantitat">
-                            <p> Quantitat: </p>
-                            <input type="number" class="quantitatInd" name="quantitatIndividual" min="0" max="100">
-                        </div>
-                        <asp:Button class="botoComprar" runat="server" Text="Afegeix al Carrito" />
-                    </div>
-                    <div class="producte">
-                        <img src="img/logo.png" alt=" Imatge del producte1">
-                        <p class="nomProducte"> Nom del producte</p>
-                        <p> 15,99 €</p>
-                        <p class="descripcio"> Figureta de una serie.</p>
-                        <div class="quantitat">
-                            <p> Quantitat: </p>
-                            <input type="number" class="quantitatInd" name="quantitatIndividual" min="0" max="100">
-                        </div>
-                        <asp:Button class="botoComprar" runat="server" Text="Afegeix al Carrito" />
-                    </div>
-                    <div class="producte">
-                        <img src="img/logo.png" alt=" Imatge del producte1">
-                        <p class="nomProducte"> Nom del producte</p>
-                        <p> 15,99 €</p>
-                        <p class="descripcio"> Figureta de una serie.</p>
-                        <div class="quantitat">
-                            <p> Quantitat: </p>
-                            <input type="number" class="quantitatInd" name="quantitatIndividual" min="0" max="100">
-                        </div>
-                        <asp:Button class="botoComprar" runat="server" Text="Afegeix al Carrito" />
-                    </div>
-                    <div class="producte">
-                        <img src="img/logo.png" alt=" Imatge del producte1">
-                        <p class="nomProducte"> Nom del producte</p>
-                        <p> 15,99 €</p>
-                        <p class="descripcio"> Figureta de una serie hola que tal com estas sdjanjidnajis dsanodojan</p>
-                        <div class="quantitat">
-                            <p> Quantitat: </p>
-                            <input type="number" class="quantitatInd" name="quantitatIndividual" min="0" max="100">
-                        </div>
-                        <asp:Button class="botoComprar" runat="server" Text="Afegeix al Carrito" />
-                    </div>
+                    <asp:Label ID="label_prod1" runat="server" ></asp:Label>
+                    <asp:Label ID="label_prod2" runat="server" ></asp:Label>
+                    <asp:Label ID="label_prod3" runat="server" ></asp:Label>
+                    <asp:Label ID="label_prod4" runat="server" ></asp:Label>
                 </div>
             </main>
         </div>
