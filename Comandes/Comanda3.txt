@@ -1,0 +1,13 @@
+----------  Dades del Client ----------
+
+DNI: 1234
+Nom: Marc
+Telèfon: 987654321
+
+
+
+----------  Dades dels Productes Comprats ----------
+
+Nom del Producte: Pikachu
+Quantitat del Producte: 2
+

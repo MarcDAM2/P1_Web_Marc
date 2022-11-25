@@ -60,8 +60,11 @@ namespace P1_Web_Marc
                 quantitats[2] = quantitat3;
                 quantitats[3] = quantitat4;
 
+                //Ruta del fitxer quan estic a Classe
                 if (File.Exists("J:/DAM 2nd/M13 Projecte/Projecte1/CodiWebForms/P1_Web_Marc/Productes/producte" + estocProd + ".jpg")
                     && dadesProductes[0] != "" && dadesProductes[1] != "" && dadesProductes[2] != "")
+
+                //Ruta dels fitxers quan estic a Casa
                 //if(File.Exists("E:/DAM 2nd/M13 Projecte/Projecte1/CodiWebForms/P1_Web_Marc/Productes/producte" + estocProd + ".jpg")
                 //    && dadesProductes[0] != "" && dadesProductes[1] != "" && dadesProductes[2] != "")
                 {
@@ -116,10 +119,6 @@ namespace P1_Web_Marc
                     i++;
                 }
 
-                //if (prodDisponible == 0)
-                //{
-                //    labelSInProd.Text = "No hi ha stock de productes disponibles, torni haviat c: ";
-                //}
             }
             catch (IOException exc)
             {
@@ -186,18 +185,7 @@ namespace P1_Web_Marc
             valueSession[2] = quantitat4.Text;
 
             // La session "valors_matriu" serà accessible sempre, encara que es recarregui la pàgina diverses vegades
-            // Copia del session els 4 producte en un mateix:        Session["productes_afegits"] = valueSession;
             Session["productes_afegits4"] = valueSession;
-
-
-            //string imatgeProd = "/Productes/producte4.jpg";
-
-            //valueSession[0] = imatgeProd;
-            //valueSession[1] = nomProductes[3];
-            //valueSession[2] = quantitat4.Text;
-
-            // La session "valors_matriu" serà accessible sempre, encara que es recarregui la pàgina diverses vegades
-            //Session["productes_afegits"] = valueSession;
         }
     }
 }

@@ -38,15 +38,12 @@ namespace P1_Web_Marc
 
         private void EscriuComandaFitxer(string path)
         {
-            //string resultat = TextBox1.Text;
 
             StreamWriter writer = new StreamWriter(path);
             try
             {
 
                 // Escrivim primer les Dades Del client:
-
-                //String[] dades
                 writer.WriteLine("----------  Dades del Client ----------\n");
                 writer.WriteLine("DNI: " + clientDNI.Value);
                 writer.WriteLine("Nom: " + clientNom.Value);
@@ -92,7 +89,6 @@ namespace P1_Web_Marc
 
                 writer.Dispose();
                 Response.Redirect("Confirmacio.aspx");
-                //EscriureAmbSaltLiniaFinal(writer, resultat);
             }
             catch (IOException exc)
             {
