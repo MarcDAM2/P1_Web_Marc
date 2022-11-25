@@ -1,0 +1,15 @@
+----------  Dades del Client ----------
+
+DNI: 12345678L
+Nom: Ponche
+Telèfon: 987654321
+
+
+
+----------  Dades dels Productes Comprats ----------
+
+Nom del Producte: Jake
+Quantitat del Producte: 2
+
+Nom del Producte: Spiderman_VS_Spiderman
+Quantitat del Producte: 1

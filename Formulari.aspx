@@ -34,10 +34,9 @@
                         <input id="clientTel" type="text" name="clientTelefon" class="client_telefon" placeholder="Escriu el teu telèfon" runat="server">
                     </div>
                 </div>
-                <form></form>
-                <form action ="Confirmacio.aspx" class="boton">
+                <div class="boton">
                     <asp:Button class="boto" runat="server" Text="Confirma Comanda" OnClick="BotoConfirmarComanda" />
-                </form>
+                </div>
             </main>
         </div>
     </form>

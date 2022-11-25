@@ -29,6 +29,11 @@ namespace P1_Web_Marc
                 {
                     LLegirFitxer(fitxerProd);
                 }
+
+                if (prodDisponible == 0)
+                {
+                    labelSInProd.Text = "No hi ha stock de productes disponibles, torni haviat c: ";
+                }
             }
         }
 
@@ -55,10 +60,10 @@ namespace P1_Web_Marc
                 quantitats[2] = quantitat3;
                 quantitats[3] = quantitat4;
 
-                //if (File.Exists("J:/DAM 2nd/M13 Projecte/Projecte1/CodiWebForms/P1_Web_Marc/Productes/producte" + estocProd + ".jpg")
-                //    && dadesProductes[0] != "" && dadesProductes[1] != "" && dadesProductes[2] != "")
-                if(File.Exists("E:/DAM 2nd/M13 Projecte/Projecte1/CodiWebForms/P1_Web_Marc/Productes/producte" + estocProd + ".jpg")
+                if (File.Exists("J:/DAM 2nd/M13 Projecte/Projecte1/CodiWebForms/P1_Web_Marc/Productes/producte" + estocProd + ".jpg")
                     && dadesProductes[0] != "" && dadesProductes[1] != "" && dadesProductes[2] != "")
+                //if(File.Exists("E:/DAM 2nd/M13 Projecte/Projecte1/CodiWebForms/P1_Web_Marc/Productes/producte" + estocProd + ".jpg")
+                //    && dadesProductes[0] != "" && dadesProductes[1] != "" && dadesProductes[2] != "")
                 {
                     string producte = "<div class='producte'> " +
                      "<img src =" + imatgeProd + " alt = 'Imatge del producte1'>" +
@@ -111,10 +116,10 @@ namespace P1_Web_Marc
                     i++;
                 }
 
-                if (prodDisponible == 0)
-                {
-                    labelSInProd.Text = "No hi ha stock de productes disponibles, torni haviat c: ";
-                }
+                //if (prodDisponible == 0)
+                //{
+                //    labelSInProd.Text = "No hi ha stock de productes disponibles, torni haviat c: ";
+                //}
             }
             catch (IOException exc)
             {

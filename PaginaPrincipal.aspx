@@ -29,7 +29,7 @@
                     <asp:Label ID="label_prod4" runat="server" ></asp:Label>
                     
                 </div>
-                <div class="quantitatProductes">
+                <!--<div class="quantitatProductes">
                     <p id="quantitatVisible" runat="server" Visible ="false">Quantitat: </p><asp:TextBox id="quantitat1" runat="server" type="number"  class='quantitatInd'/>
                     <p id="quantitatVisible2" runat="server" Visible ="false">Quantitat: </p><asp:TextBox id="quantitat2" runat="server" type="number" class='quantitatInd'/>
                     <p id="quantitatVisible3" runat="server" Visible ="false">Quantitat: </p><asp:TextBox id="quantitat3" runat="server" type="number" class='quantitatInd'/>
@@ -40,7 +40,7 @@
                     <asp:Button ID="Button2" runat="server" Text="Afegeix al Carrito" class='botoComprar' OnClick="Button2_Click"/>
                     <asp:Button ID="Button3" runat="server" Text="Afegeix al Carrito" class='botoComprar' OnClick="Button3_Click"/>
                     <asp:Button ID="Button4" runat="server" Text="Afegeix al Carrito" class='botoComprar' OnClick="Button4_Click"/>
-                </div>
+                </div>-->
             </main>
         </div>
     </form>
