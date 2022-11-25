@@ -21,20 +21,34 @@
                 <h1>Carret de la Compra: </h1>
 
                 <div class="productes_carrito">
-                    <div class="producte">
-                        <img src="img/logo.png" alt="">
+                    <!--<div class="producte"> -->
+                    <div class="elementCarrito">
+                        <asp:Label ID="label1" runat="server" class="labelCarrito"></asp:Label><asp:Button id="Button1" class="eliminarProd" runat="server" Text="x" Visible="false" OnClick="Button1_Click" />
+                    </div>
+                    <div class="elementCarrito">
+                        <asp:Label ID="label2" runat="server" class="labelCarrito"></asp:Label><asp:Button id="Button2" class="eliminarProd" runat="server" Text="x" Visible="false" OnClick="Button2_Click" />
+                    </div>
+                    <div class="elementCarrito">
+                        <asp:Label ID="label3" runat="server" class="labelCarrito"></asp:Label><asp:Button id="Button3" class="eliminarProd" runat="server" Text="x" Visible="false" OnClick="Button3_Click" />
+                    </div>
+                    <div class="elementCarrito">
+                        <asp:Label ID="label4" runat="server" class="labelCarrito"></asp:Label><asp:Button id="Button4" class="eliminarProd" runat="server" Text="x" Visible="false" OnClick="Button4_Click" />
+                    </div>
+                    <!--<asp:Button id="botoEliminarCarrito" class="eliminarProd" runat="server" Text="x" />-->
+
+                        <!--<asp:Image ID="Imatge1" runat="server"/>
+                        <asp:Label ID="labelCarrito1" runat="server" ></asp:Label>
                         <p>Nom del producte</p>
-                        <p>Quantitat: </p>
-                        <input type="number" class="quantitatInd" name="quantitatIndividual" min="0" max="100">
-                        <asp:Button class="eliminarProd" runat="server" Text="x" />
+                        <p>Quantitat: </p><asp:TextBox id="quantitat1" runat="server" type="number" class='quantitatInd' />
+                        <asp:Button id="botoEliminar" class="eliminarProd" runat="server" Text="x" />
                     </div>
                     <div class="producte">
                         <img src="img/logo.png" alt="">
-                        <p>Nom del producte</p>
+                        <asp:Label ID="labelCarrito2" runat="server" >Nom del Producte</asp:Label>
                         <p>Quantitat: </p>
                         <input type="number" class="quantitatInd" name="quantitatIndividual" min="0" max="100">
                         <asp:Button class="eliminarProd" runat="server" Text="x" />
-                    </div>
+                    </div>-->
                     <div class="botons">
                         <!-- Fico un nou form buit ja que el WebForm es una versió vella i el primer form action no funciona-->
                         <form></form>

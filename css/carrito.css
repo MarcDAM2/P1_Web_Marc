@@ -58,6 +58,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: nowrap;
     background-color: #AFF594;
     border-radius: 30px;
     margin-bottom: 50px;
@@ -84,8 +85,19 @@ main {
     text-align: center;
 }
 
+.labelCarrito{
+    width: 90%;
+}
+
+.elementCarrito{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .eliminarProd {
-    margin-left: 35px;
+    height: 50px;
+    margin-left: 50px;
     padding: 5px 15px;
     font-size: 30px;
     color: white;

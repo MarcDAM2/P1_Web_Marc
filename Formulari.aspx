@@ -13,6 +13,7 @@
     <form id="form1" runat="server">
         <div>
             <header>
+                <a href="Carrito.aspx" <i class="fa fa-mail-reply-all"></i></a>
                 <img class="logo" src="img/logo.png" alt="imatge del logo de la botiga Online">
                 <h1 class="titol_capçalera"> Funko_DAM</h1>
             </header>
@@ -22,20 +23,20 @@
                 <div class="dadesClient">
                     <div class="tipusDades">
                         <p>Introdueix el DNI/NIF: </p>
-                        <input type="text" name="clientDNI" class="clientDNI" placeholder="Escriu el teu DNI">
+                        <input id="clientDNI" type="text" name="client_dni" class="clientDNI" placeholder="Escriu el teu DNI" runat="server">
                     </div>
                     <div class="tipusDades">
                         <p>Introdueix el teu nom: </p>
-                        <input type="text" name="clientNom" class="clientNom" placeholder="Escriu el teu Nom">
+                        <input id="clientNom" type="text" name="clientNom" class="client_nom" placeholder="Escriu el teu Nom" runat="server">
                     </div>
                     <div class="tipusDades">
                         <p>Introdueix el teu número de telèfon: </p>
-                        <input type="text" name="clientTelefon" class="clientTelefon" placeholder="Escriu el teu telèfon">
+                        <input id="clientTel" type="text" name="clientTelefon" class="client_telefon" placeholder="Escriu el teu telèfon" runat="server">
                     </div>
                 </div>
                 <form></form>
                 <form action ="Confirmacio.aspx" class="boton">
-                    <asp:Button class="boto" runat="server" Text="Confirma Comanda" />
+                    <asp:Button class="boto" runat="server" Text="Confirma Comanda" OnClick="BotoConfirmarComanda" />
                 </form>
             </main>
         </div>
